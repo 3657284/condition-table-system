@@ -1,0 +1,32 @@
+# User supplied or generated workbooks may contain project data
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.csv
+
+# Local secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+
+# Temporary files, editor state, and caches
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+node_modules/
+
+# Build and generated output directories
+dist/
+build/
+output/
+outputs/
+
